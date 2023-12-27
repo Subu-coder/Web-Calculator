@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculator</h1>
+    </header>
+
+    <main>
+        <div id="calc">
+            <div id="screen">
+                <input type="text" id="textbox" readonly>
+                <input type="text" id="txtbx_jnr" readonly>
+            </div>
+            <div id="buttons">
+                <table>
+                    <tr>
+                        <td><button value="ac" class="btn">AC</button></td>
+                        <td><button value="del" class="btn">DEL</button></td>
+                        <td><button value="/" class="btn" id="oprnd">/</button></td>
+                        <td><button value="*" class="btn" id="oprnd">X</button></td>
+                    </tr>
+                    <tr>
+                        <td><button value="7" class="btn" id="nums">7</button></td>
+                        <td><button value="8" class="btn" id="nums">8</button></td>
+                        <td><button value="9" class="btn" id="nums">9</button></td>
+                        <td><button value="-" class="btn" id="oprnd">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button value="4" class="btn" id="nums">4</button></td>
+                        <td><button value="5" class="btn" id="nums">5</button></td>
+                        <td><button value="6" class="btn" id="nums">6</button></td>
+                        <td><button value="+" class="btn" id="oprnd">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button value="1" class="btn" id="nums">1</button></td>
+                        <td><button value="2" class="btn" id="nums">2</button></td>
+                        <td><button value="3" class="btn" id="nums">3</button></td>
+                        <td rowspan="2"><button value="=" class="btn" id="equal" id="oprnd">=</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button value="0" class="btn" id="zero">0</button></td>
+                        <td><button value="." class="btn">.</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h2>©SUBHAM</h2>
+        <h3>Connect Me on</h3>
+        <a href="https://www.instagram.com/itz_subu_/">Instagram</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
